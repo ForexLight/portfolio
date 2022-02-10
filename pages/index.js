@@ -84,19 +84,23 @@ const Page = () => {
                     </Heading>
                     <SkillSection>
                         <Skill>Html</Skill>
-                        Born in small town near Vinnytsia
+                        HTML 5, Semantic layout,
                     </SkillSection>
                     <SkillSection>
                         <Skill>CSS</Skill>
-                        Born in small town near Vinnytsia
+                        CSS in JS, SCSS, Bootstrap 5
                     </SkillSection>
                     <SkillSection>
                         <Skill>JS</Skill>
-                        Born in small town near Vinnytsia
+                        ES 6+, AJAX, DOM
                     </SkillSection>
                     <SkillSection>
                         <Skill>React</Skill>
-                        Born in small town near Vinnytsia
+                        Hooks, Classes Component, Redux
+                    </SkillSection>
+                    <SkillSection>
+                        <Skill>Data Bases</Skill>
+                        SQL, MSSQL, MongoDB
                     </SkillSection>
                 </Section>
                 <Section delay={0.3}>
