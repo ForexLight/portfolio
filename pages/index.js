@@ -23,8 +23,13 @@ const Page = () => {
     return (
         <Layout>
             <Container>
-                <Box borderRadius='lg' p={3} mb={6} background={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} align='center'>
-                    Hello i'm new there and just learning new think's
+                <Box
+                    borderRadius='lg'
+                    p={3}
+                    mb={6}
+                    background={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+                    align='center'
+                >Hello i&apos;m new there and just learning new think&apos;s
                 </Box>
                 <Box display={{md: 'flex'}}>
                     <Box flexGrow={1}>
@@ -52,11 +57,9 @@ const Page = () => {
                 </Box>
 
                 <Section delay={0.1}>
-                    <Heading as='h3' variant='section-title'>
-                        Work
-                    </Heading>
+                    <Heading as='h3' variant='section-title'>Work</Heading>
                     <Paragraph>
-                        I’m 19 year's old student of Vinnytsia Technical University on 3rd year of
+                        I’m 19 year&apos;s old student of Vinnytsia Technical University on 3rd year of
                         education, cybersecurity specialty.
                     </Paragraph>
                     <Paragraph>
@@ -108,9 +111,7 @@ const Page = () => {
                 </Section>
 
                 <Section delay={0.3}>
-                    <Heading as='h3' variant='section-title'>
-                        Social Link's
-                    </Heading>
+                    <Heading as='h3' variant='section-title'>Social Link&apos;s</Heading>
                     <List>
                         <ListItem>
                             <Link href='https://github.com/ForexLight'>
