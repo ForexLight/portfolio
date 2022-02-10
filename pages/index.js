@@ -99,7 +99,7 @@ const Page = () => {
                         Hooks, Classes Component, Redux
                     </SkillSection>
                     <SkillSection>
-                        <Skill>Data Bases</Skill>
+                        <Skill>Data Bases </Skill>
                         SQL, MSSQL, MongoDB
                     </SkillSection>
                 </Section>
