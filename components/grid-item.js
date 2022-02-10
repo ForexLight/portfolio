@@ -1,40 +1,37 @@
-import NextLink from "next/link";
-import Image from "next/image";
-import {Box, Text, Link, LinkOverlay, LinkBox} from '@chakra-ui/react'
-import { Global } from "@emotion/react";
+import NextLink from 'next/link'
+import Image from 'next/image'
+import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
+import { Global } from '@emotion/react'
 
-export const GridItem = ({children, href, title, thumbnail}) => (
-    <Box
-        w='100%'
-        align='center'
-    >
-        <LinkBox cursor='pointer'>
+export const GridItem = ({ children, href, title, thumbnail }) => (
+    <Box w="100%" textAlign="center">
+        <LinkBox cursor="pointer">
             <Image
                 src={thumbnail}
                 alt={title}
-                className='grid-item-thumbnail'
-                placeholder='blur'
-                loading='lazy'
+                className="grid-item-thumbnail"
+                placeholder="blur"
+                loading="lazy"
             />
-            <LinkOverlay href={href} target='_blank'>
+            <LinkOverlay href={href} target="_blank">
                 <Text mt={2}>{title}</Text>
             </LinkOverlay>
-            <Text fontSize={14}>
-                {children}
-            </Text>
+            <Text fontSize={14}>{children}</Text>
         </LinkBox>
     </Box>
 )
 
-export const WorkGridItem = ({children, id, title, thumbnail}) => (
-    <Box w='100%' align='center'>
+export const WorkGridItem = ({ children, id, title, thumbnail }) => (
+    <Box w="100%" textAlign="center">
         <NextLink href={`/works/${id}`}>
-            <LinkBox cursor='pointer'>
+            <LinkBox cursor="pointer">
                 <Image
                     src={thumbnail}
                     alt={title}
-                    className='grid-item-thumbnail'
-                    placeholder='blur'
+                    className="grid-item-thumbnail"
+                    placeholder="blur"
+                    width={800}
+                    height={450}
                 />
                 <LinkOverlay href={`/works/${id}`}>
                     <Text mt={2} fontSize={20}>
@@ -47,10 +44,12 @@ export const WorkGridItem = ({children, id, title, thumbnail}) => (
     </Box>
 )
 
-export const GridItemStyle = () => {
-    <Global styles={`
-    .grid-item-thumbnail {
+export const GridItemStyle = () => (
+    <Global
+        styles={`
+      .grid-item-thumbnail {
         border-radius: 12px;
-      
-    `} />
-}
+      }
+    `}
+    />
+)

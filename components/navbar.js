@@ -37,6 +37,7 @@ const NavBar = props => {
     return (
         <Box
             position='fixed'
+            zIndex={1000}
             as='nav'
             w='100%'
             bg={useColorModeValue('#fff', '#202023')}
