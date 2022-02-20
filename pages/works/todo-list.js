@@ -23,8 +23,8 @@ const Work = () => {
                         Stack
                     </Heading>
                     <ListItem ml={4} my={4}>
-                        <Meta>Platform</Meta>
-                        <span>Node.Js</span>
+                        <Meta>Programing language</Meta>
+                        <span>JavaScript</span>
                     </ListItem>
                     <ListItem ml={4} my={4}>
                         <Meta>React</Meta>
@@ -34,6 +34,7 @@ const Work = () => {
                         <Meta>Styles</Meta>
                         <span>CSS</span>
                     </ListItem>
+
                 </List>
 
                 <WorkImage src='/images/works/todoListApp.jpg'/>

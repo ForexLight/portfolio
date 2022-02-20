@@ -23,8 +23,8 @@ const Work = () => {
                         Stack
                     </Heading>
                     <ListItem ml={4} my={4}>
-                        <Meta>Platform</Meta>
-                        <span>Node.Js</span>
+                        <Meta>Programing language</Meta>
+                        <span>JavaScript</span>
                     </ListItem>
                     <ListItem ml={4} my={4}>
                         <Meta>React</Meta>
@@ -33,6 +33,12 @@ const Work = () => {
                     <ListItem ml={4} my={4}>
                         <Meta>Styles</Meta>
                         <span>CSS in JS(styled)</span>
+                    </ListItem>
+                    <Heading as='h3' fontSize={20}>
+                        LINK
+                    </Heading>
+                    <ListItem ml={4} my={4}>
+                        <span><a href="https://filmapp.vercel.app/">https://filmapp.vercel.app/</a></span>
                     </ListItem>
                 </List>
 
